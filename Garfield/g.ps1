@@ -1,7 +1,7 @@
 ﻿# Vars for log
 $destFile = ("$env:COMPUTERNAME-{0:yyyy-MM-dd-HH-mm-ss}.log" -f (Get-Date))
 $ToolPath = ((Get-WmiObject win32_volume -f 'label=''BashBunny''').Name+'bin')
-$destPath = ((Get-WmiObject win32_volume -f 'label=''BashBunny''').Name+'loot\LocalPwn')
+$destPath = ((Get-WmiObject win32_volume -f 'label=''BashBunny''').Name+'loot\Garfield')
 $dest = "$destPath\$destFile"
 
 # Clear Run history

