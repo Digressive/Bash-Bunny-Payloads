@@ -18,7 +18,8 @@
 \_______|,...____;_;_|../_;_|
 ```
 
-* Author: Mike Galvin
+* Author: Mike Galvin/Digressive
+* Creds: jdebetaz, Hak5Darren, AlessandroZ, jschicht, TeCHemically, dragmus13, RazerBlade
 * Version: Version 1.0
 * Category: Get local passwords
 * Target: Windows 10 / PowerShell
@@ -28,6 +29,8 @@ Mike Galvin's site: [https://gal.vin](https://gal.vin)
 Twitter:[@mikegalvin_](https://twitter.com/mikegalvin_)
 
 ## Description
+
+Important note: This is built upon the PasswordGrabber [https://github.com/Digressive/bashbunny-payloads/tree/master/payloads/library/credentials/PasswordGrabber](https://github.com/Digressive/bashbunny-payloads/tree/master/payloads/library/credentials/PasswordGrabber) payload.
 
 This payload will launch an elevated PowerShell session and run g.ps1.
 
