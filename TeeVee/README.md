@@ -25,6 +25,7 @@ t.ps1 will silently install the free version of TeamViewer, import a desired con
 You can use the included example-settings.reg file to test. The personal password is "lamepassword".
 
 For 64-bit Windows add: WOW6432Node to the registry key paths.
+
 Add the following key to the end of the file:
 
 ``` txt
