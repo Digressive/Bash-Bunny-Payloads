@@ -17,10 +17,10 @@ t.ps1 will silently install the free version of TeamViewer, import a desired con
 
 ### Configuration
 
-You will need download the current free version of TeamViewer and put the exe into the bin folder on the BashBunny.
-You will need to export the desired configuration from an installion of TeamViewer that you have already configured as required.
-You will need specify the TeamViewer personal password when you export the file.
-You'll need to make some changes to the file before using it.
+* You will need download the current free version of TeamViewer and put the exe into the bin folder on the BashBunny.
+* You will need to export the desired configuration from an installion of TeamViewer that you have already configured as required.
+* You will need specify the TeamViewer personal password when you export the file.
+* You'll need to make some changes to the file before using it.
 
 You can use the included example-settings.reg file to test. The personal password is "lamepassword".
 
