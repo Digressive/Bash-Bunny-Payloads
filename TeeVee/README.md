@@ -5,7 +5,7 @@
 * Category: Remote Access
 * Target: Windows 10 / PowerShell
 
-Detail setup instructions are available on my site: [https://gal.vin](https://gal.vin/2020/01/21/team-viewer-silent-install-and-configuration/)
+Detail setup instructions are available on my site: [https://gal.vin](https://gal.vin/posts/team-viewer-silent-install-and-configuration/)
 
 Twitter:[@mikegalvin_](https://twitter.com/mikegalvin_)
 
